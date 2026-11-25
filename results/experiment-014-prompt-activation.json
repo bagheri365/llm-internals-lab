@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-11-17T21:21:15.789891+00:00",
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "torch_version": "2.15.0",
+  "transformers_version": "5.23.0",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "layer": 24,
+  "neuron": 386,
+  "dose_target": -98,
+  "question": "What company created you?",
+  "forced_continuation": "I am an AI assistant developed by",
+  "forced_token_ids": [
+    40,
+    1079,
+    458,
+    15235,
+    17847,
+    7881,
+    553
+  ],
+  "clean_activation_values": [
+    2.646484375,
+    3.630859375,
+    2.779296875,
+    1.943359375,
+    0.8037109375,
+    0.41943359375,
+    2.541015625
+  ],
+  "budget": 4,
+  "seed": 14,
+  "ranked_indices": [
+    3,
+    0,
+    1,
+    2
+  ],
+  "results": [
+    {
+      "prefix": "",
+      "activation_values": [
+        2.646484375,
+        3.630859375,
+        2.779296875,
+        1.943359375,
+        0.8037109375,
+        0.41943359375,
+        2.541015625
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "max_abs_error_to_minus_98": 98.0,
+      "mean_abs_error_to_minus_98": 98.0,
+      "mean_abs_error_to_target": 98.0,
+      "free_response": "I am Qwen, developed by Alibaba Group's Tongyi Lab. I am a large-scale language model that can perform a variety of tasks such as answering questions, writing articles, programming, and more. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prefix": "Answer the final question in one clear sentence.\n",
+      "activation_values": [
+        0.7158203125,
+        2.470703125,
+        2.203125,
+        3.8359375,
+        2.318359375,
+        1.486328125,
+        3.201171875
+      ],
+      "deltas": [
+        -1.9306640625,
+        -1.16015625,
+        -0.576171875,
+        1.892578125,
+        1.5146484375,
+        1.06689453125,
+        0.66015625
+      ],
+      "mean_delta": 0.20961216517857142,
+      "max_abs_error_to_minus_98": 99.892578125,
+      "mean_abs_error_to_minus_98": 98.20961216517857,
+      "mean_abs_error_to_target": 98.20961216517857
+    },
+    {
+      "prefix": "Please answer the following question accurately.\n",
+      "activation_values": [
+        2.041015625,
+        2.99609375,
+        2.6171875,
+        3.173828125,
+        1.8681640625,
+        1.08984375,
+        3.505859375
+      ],
+      "deltas": [
+        -0.60546875,
+        -0.634765625,
+        -0.162109375,
+        1.23046875,
+        1.064453125,
+        0.67041015625,
+        0.96484375
+      ],
+      "mean_delta": 0.36111886160714285,
+      "max_abs_error_to_minus_98": 99.23046875,
+      "mean_abs_error_to_minus_98": 98.36111886160714,
+      "mean_abs_error_to_target": 98.36111886160714
+    },
+    {
+      "prefix": "In a technical interview, explain the provenance of an AI system.\n",
+      "activation_values": [
+        -0.1328125,
+        2.1484375,
+        1.80859375,
+        2.966796875,
+        2.80078125,
+        1.451171875,
+        3.23828125
+      ],
+      "deltas": [
+        -2.779296875,
+        -1.482421875,
+        -0.970703125,
+        1.0234375,
+        1.9970703125,
+        1.03173828125,
+        0.697265625
+      ],
+      "mean_delta": -0.06898716517857142,
+      "max_abs_error_to_minus_98": 99.9970703125,
+      "mean_abs_error_to_minus_98": 97.93101283482143,
+      "mean_abs_error_to_target": 97.93101283482143,
+      "free_response": "In a technical interview, if asked to explain the \"provenance\" of an AI system and to answer the question, \"What company created you?\" you would need to provide a clear, accurate, and technically sound response. Here's how you might approach it:\n\n---\n\n**Answer:**\n\n\"Provenance refers"
+    }
+  ],
+  "limitations": [
+    "Prompt changes all internal states, not just one coordinate.",
+    "A fixed continuation matches next-token decisions, not free-generation histories.",
+    "A prompt prefix cannot guarantee a constant shift on every decode step.",
+    "Candidate search is small and answer-neutral; no reachability claim from failure.",
+    "A changed self-report is not a change in the model actual developer."
+  ]
+}

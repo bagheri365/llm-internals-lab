@@ -1,0 +1,762 @@
+{
+  "timestamp": "2026-11-17T21:26:26.145659+00:00",
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "torch_version": "2.15.0",
+  "transformers_version": "5.23.0",
+  "device": "mps",
+  "layer": 24,
+  "neuron": 386,
+  "dose_target": -98,
+  "position": "last",
+  "question": "What company created you?",
+  "continuation": "I am an AI assistant developed by",
+  "clean_activation_values": [
+    2.646484375,
+    3.630859375,
+    2.779296875,
+    1.943359375,
+    0.8037109375,
+    0.41943359375,
+    2.541015625
+  ],
+  "seed": 15,
+  "steps": 24,
+  "best_prefix": "In summary, Research background. Model provenance. In summary, ",
+  "best_error": 97.177734375,
+  "clean_response": "I am Qwen, developed by Alibaba Group's Tongyi Lab. I am a large-scale language model that can perform a variety of tasks such as answering questions, writing articles, programming, and more. If you have any questions or need assistance, feel free to ask!",
+  "best_response": "It seems there might be some confusion in your question. I am Qwen, a large language model developed by Alibaba Group's Tongyi Lab. I was created by Alibaba Cloud, and I am part of the Tongyi Lab's research and development efforts. If you have any specific questions about my background, capabilities, or",
+  "evaluations": [
+    {
+      "iteration": 0,
+      "prefix": "In summary, Context: Consider the evidence. A factual question. ",
+      "pieces": [
+        "In summary, ",
+        "Context: ",
+        "Consider the evidence. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        0.3134765625,
+        2.64453125,
+        3.904296875,
+        4.00390625,
+        2.05859375,
+        1.341796875,
+        3.658203125
+      ],
+      "deltas": [
+        -2.3330078125,
+        -0.986328125,
+        1.125,
+        2.060546875,
+        1.2548828125,
+        0.92236328125,
+        1.1171875
+      ],
+      "error": 99.1171875
+    },
+    {
+      "iteration": 1,
+      "prefix": "Technical note: Context: Consider the evidence. A factual question. ",
+      "pieces": [
+        "Technical note: ",
+        "Context: ",
+        "Consider the evidence. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        0.1270751953125,
+        2.27734375,
+        3.283203125,
+        4.015625,
+        2.234375,
+        1.4873046875,
+        3.703125
+      ],
+      "deltas": [
+        -2.5194091796875,
+        -1.353515625,
+        0.50390625,
+        2.072265625,
+        1.4306640625,
+        1.06787109375,
+        1.162109375
+      ],
+      "error": 99.162109375
+    },
+    {
+      "iteration": 2,
+      "prefix": "In summary, For reference, Consider the evidence. A factual question. ",
+      "pieces": [
+        "In summary, ",
+        "For reference, ",
+        "Consider the evidence. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        0.65283203125,
+        3.16796875,
+        3.974609375,
+        3.857421875,
+        1.99609375,
+        1.1103515625,
+        3.412109375
+      ],
+      "deltas": [
+        -1.99365234375,
+        -0.462890625,
+        1.1953125,
+        1.9140625,
+        1.1923828125,
+        0.69091796875,
+        0.87109375
+      ],
+      "error": 98.87109375
+    },
+    {
+      "iteration": 3,
+      "prefix": "A factual question. For reference, Consider the evidence. A factual question. ",
+      "pieces": [
+        "A factual question. ",
+        "For reference, ",
+        "Consider the evidence. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        0.435302734375,
+        2.63671875,
+        3.072265625,
+        3.794921875,
+        2.201171875,
+        1.4716796875,
+        3.51953125
+      ],
+      "deltas": [
+        -2.211181640625,
+        -0.994140625,
+        0.29296875,
+        1.8515625,
+        1.3974609375,
+        1.05224609375,
+        0.978515625
+      ],
+      "error": 98.978515625
+    },
+    {
+      "iteration": 4,
+      "prefix": "In summary, Research background. Consider the evidence. A factual question. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Consider the evidence. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        1.09375,
+        3.62109375,
+        4.2890625,
+        3.533203125,
+        1.76171875,
+        1.033203125,
+        3.044921875
+      ],
+      "deltas": [
+        -1.552734375,
+        -0.009765625,
+        1.509765625,
+        1.58984375,
+        0.9580078125,
+        0.61376953125,
+        0.50390625
+      ],
+      "error": 98.50390625
+    },
+    {
+      "iteration": 5,
+      "prefix": "In summary, For reference, Consider the evidence. A factual question. ",
+      "pieces": [
+        "In summary, ",
+        "For reference, ",
+        "Consider the evidence. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        0.65283203125,
+        3.16796875,
+        3.974609375,
+        3.857421875,
+        1.99609375,
+        1.1103515625,
+        3.412109375
+      ],
+      "deltas": [
+        -1.99365234375,
+        -0.462890625,
+        1.1953125,
+        1.9140625,
+        1.1923828125,
+        0.69091796875,
+        0.87109375
+      ],
+      "error": 98.87109375
+    },
+    {
+      "iteration": 6,
+      "prefix": "In summary, Research background. Please be concise. A factual question. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Please be concise. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        2.359375,
+        3.693359375,
+        4.2890625,
+        3.302734375,
+        1.74609375,
+        1.05078125,
+        2.904296875
+      ],
+      "deltas": [
+        -0.287109375,
+        0.0625,
+        1.509765625,
+        1.359375,
+        0.9423828125,
+        0.63134765625,
+        0.36328125
+      ],
+      "error": 98.36328125
+    },
+    {
+      "iteration": 7,
+      "prefix": "In summary, Research background. Model provenance. A factual question. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Model provenance. ",
+        "A factual question. "
+      ],
+      "activation_values": [
+        1.392578125,
+        3.234375,
+        4.125,
+        2.873046875,
+        1.6689453125,
+        0.880859375,
+        3.056640625
+      ],
+      "deltas": [
+        -1.25390625,
+        -0.396484375,
+        1.345703125,
+        0.9296875,
+        0.865234375,
+        0.46142578125,
+        0.515625
+      ],
+      "error": 98.515625
+    },
+    {
+      "iteration": 8,
+      "prefix": "In summary, Research background. Please be concise. Model provenance. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Please be concise. ",
+        "Model provenance. "
+      ],
+      "activation_values": [
+        1.390625,
+        3.060546875,
+        3.748046875,
+        2.203125,
+        1.1416015625,
+        0.822265625,
+        2.57421875
+      ],
+      "deltas": [
+        -1.255859375,
+        -0.5703125,
+        0.96875,
+        0.259765625,
+        0.337890625,
+        0.40283203125,
+        0.033203125
+      ],
+      "error": 98.033203125
+    },
+    {
+      "iteration": 9,
+      "prefix": "In summary, Research background. In summary, Model provenance. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "In summary, ",
+        "Model provenance. "
+      ],
+      "activation_values": [
+        1.5185546875,
+        3.80859375,
+        3.955078125,
+        2.30859375,
+        1.525390625,
+        0.919921875,
+        2.12109375
+      ],
+      "deltas": [
+        -1.1279296875,
+        0.177734375,
+        1.17578125,
+        0.365234375,
+        0.7216796875,
+        0.50048828125,
+        -0.419921875
+      ],
+      "error": 97.580078125
+    },
+    {
+      "iteration": 10,
+      "prefix": "In summary, System history. In summary, Model provenance. ",
+      "pieces": [
+        "In summary, ",
+        "System history. ",
+        "In summary, ",
+        "Model provenance. "
+      ],
+      "activation_values": [
+        1.8212890625,
+        2.888671875,
+        3.34765625,
+        2.802734375,
+        1.619140625,
+        0.86083984375,
+        2.658203125
+      ],
+      "deltas": [
+        -0.8251953125,
+        -0.7421875,
+        0.568359375,
+        0.859375,
+        0.8154296875,
+        0.44140625,
+        0.1171875
+      ],
+      "error": 98.1171875
+    },
+    {
+      "iteration": 11,
+      "prefix": "In summary, Research background. Model provenance. Model provenance. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Model provenance. ",
+        "Model provenance. "
+      ],
+      "activation_values": [
+        1.66796875,
+        3.65234375,
+        3.787109375,
+        2.265625,
+        1.41015625,
+        0.82666015625,
+        1.8115234375
+      ],
+      "deltas": [
+        -0.978515625,
+        0.021484375,
+        1.0078125,
+        0.322265625,
+        0.6064453125,
+        0.4072265625,
+        -0.7294921875
+      ],
+      "error": 97.2705078125
+    },
+    {
+      "iteration": 12,
+      "prefix": "In summary, Research background. Question follows. Model provenance. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Question follows. ",
+        "Model provenance. "
+      ],
+      "activation_values": [
+        1.7861328125,
+        3.35546875,
+        3.78125,
+        2.3359375,
+        1.3505859375,
+        0.98193359375,
+        2.009765625
+      ],
+      "deltas": [
+        -0.8603515625,
+        -0.275390625,
+        1.001953125,
+        0.392578125,
+        0.546875,
+        0.5625,
+        -0.53125
+      ],
+      "error": 97.46875
+    },
+    {
+      "iteration": 13,
+      "prefix": "In summary, Research background. Model provenance. In summary, ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Model provenance. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        1.3408203125,
+        3.736328125,
+        3.9609375,
+        2.4296875,
+        1.4169921875,
+        0.72119140625,
+        1.71875
+      ],
+      "deltas": [
+        -1.3056640625,
+        0.10546875,
+        1.181640625,
+        0.486328125,
+        0.61328125,
+        0.3017578125,
+        -0.822265625
+      ],
+      "error": 97.177734375
+    },
+    {
+      "iteration": 14,
+      "prefix": "In summary, Research background. Model provenance. Please be concise. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Model provenance. ",
+        "Please be concise. "
+      ],
+      "activation_values": [
+        1.3671875,
+        2.998046875,
+        3.353515625,
+        2.279296875,
+        0.7900390625,
+        0.52001953125,
+        2.1484375
+      ],
+      "deltas": [
+        -1.279296875,
+        -0.6328125,
+        0.57421875,
+        0.3359375,
+        -0.013671875,
+        0.1005859375,
+        -0.392578125
+      ],
+      "error": 97.607421875
+    },
+    {
+      "iteration": 15,
+      "prefix": "In summary, Research background. Model provenance. For reference, ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Model provenance. ",
+        "For reference, "
+      ],
+      "activation_values": [
+        1.8916015625,
+        3.8828125,
+        4.2890625,
+        2.580078125,
+        1.38671875,
+        0.76953125,
+        1.8779296875
+      ],
+      "deltas": [
+        -0.7548828125,
+        0.251953125,
+        1.509765625,
+        0.63671875,
+        0.5830078125,
+        0.35009765625,
+        -0.6630859375
+      ],
+      "error": 97.3369140625
+    },
+    {
+      "iteration": 16,
+      "prefix": "In summary, Research background. Model provenance. Origins and authorship. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Model provenance. ",
+        "Origins and authorship. "
+      ],
+      "activation_values": [
+        1.31640625,
+        3.578125,
+        4.3984375,
+        2.73046875,
+        1.90234375,
+        1.2685546875,
+        2.62109375
+      ],
+      "deltas": [
+        -1.330078125,
+        -0.052734375,
+        1.619140625,
+        0.787109375,
+        1.0986328125,
+        0.84912109375,
+        0.080078125
+      ],
+      "error": 98.080078125
+    },
+    {
+      "iteration": 17,
+      "prefix": "In summary, Research background. Consider the evidence. In summary, ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Consider the evidence. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        1.3369140625,
+        4.41015625,
+        4.5390625,
+        2.83203125,
+        1.4169921875,
+        0.50146484375,
+        2.0390625
+      ],
+      "deltas": [
+        -1.3095703125,
+        0.779296875,
+        1.759765625,
+        0.888671875,
+        0.61328125,
+        0.08203125,
+        -0.501953125
+      ],
+      "error": 97.498046875
+    },
+    {
+      "iteration": 18,
+      "prefix": "In summary, Research background. A factual question. In summary, ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "A factual question. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        1.5302734375,
+        4.30859375,
+        4.76953125,
+        3.294921875,
+        1.5380859375,
+        0.69873046875,
+        2.810546875
+      ],
+      "deltas": [
+        -1.1162109375,
+        0.677734375,
+        1.990234375,
+        1.3515625,
+        0.734375,
+        0.279296875,
+        0.26953125
+      ],
+      "error": 98.26953125
+    },
+    {
+      "iteration": 19,
+      "prefix": "In summary, Research background. Model provenance. Please be concise. ",
+      "pieces": [
+        "In summary, ",
+        "Research background. ",
+        "Model provenance. ",
+        "Please be concise. "
+      ],
+      "activation_values": [
+        1.3671875,
+        2.998046875,
+        3.353515625,
+        2.279296875,
+        0.7900390625,
+        0.52001953125,
+        2.1484375
+      ],
+      "deltas": [
+        -1.279296875,
+        -0.6328125,
+        0.57421875,
+        0.3359375,
+        -0.013671875,
+        0.1005859375,
+        -0.392578125
+      ],
+      "error": 97.607421875
+    },
+    {
+      "iteration": 20,
+      "prefix": "Consider the evidence. Research background. Model provenance. In summary, ",
+      "pieces": [
+        "Consider the evidence. ",
+        "Research background. ",
+        "Model provenance. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        1.28515625,
+        3.091796875,
+        3.6796875,
+        2.98828125,
+        2.052734375,
+        1.2412109375,
+        2.51953125
+      ],
+      "deltas": [
+        -1.361328125,
+        -0.5390625,
+        0.900390625,
+        1.044921875,
+        1.2490234375,
+        0.82177734375,
+        -0.021484375
+      ],
+      "error": 97.978515625
+    },
+    {
+      "iteration": 21,
+      "prefix": "Model provenance. Research background. Model provenance. In summary, ",
+      "pieces": [
+        "Model provenance. ",
+        "Research background. ",
+        "Model provenance. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        1.7392578125,
+        3.44140625,
+        3.953125,
+        2.779296875,
+        1.5830078125,
+        1.1416015625,
+        2.361328125
+      ],
+      "deltas": [
+        -0.9072265625,
+        -0.189453125,
+        1.173828125,
+        0.8359375,
+        0.779296875,
+        0.72216796875,
+        -0.1796875
+      ],
+      "error": 97.8203125
+    },
+    {
+      "iteration": 22,
+      "prefix": "In summary, Question follows. Model provenance. In summary, ",
+      "pieces": [
+        "In summary, ",
+        "Question follows. ",
+        "Model provenance. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        2.435546875,
+        2.9765625,
+        4.2734375,
+        3.5546875,
+        1.85546875,
+        1.375,
+        3.533203125
+      ],
+      "deltas": [
+        -0.2109375,
+        -0.654296875,
+        1.494140625,
+        1.611328125,
+        1.0517578125,
+        0.95556640625,
+        0.9921875
+      ],
+      "error": 98.9921875
+    },
+    {
+      "iteration": 23,
+      "prefix": "In summary, Origins and authorship. Model provenance. In summary, ",
+      "pieces": [
+        "In summary, ",
+        "Origins and authorship. ",
+        "Model provenance. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        1.3154296875,
+        2.974609375,
+        3.798828125,
+        3.046875,
+        1.6201171875,
+        0.9921875,
+        2.9140625
+      ],
+      "deltas": [
+        -1.3310546875,
+        -0.65625,
+        1.01953125,
+        1.103515625,
+        0.81640625,
+        0.57275390625,
+        0.373046875
+      ],
+      "error": 98.373046875
+    },
+    {
+      "iteration": 24,
+      "prefix": "System history. Research background. Model provenance. In summary, ",
+      "pieces": [
+        "System history. ",
+        "Research background. ",
+        "Model provenance. ",
+        "In summary, "
+      ],
+      "activation_values": [
+        1.5546875,
+        3.287109375,
+        3.365234375,
+        2.625,
+        1.7958984375,
+        1.1181640625,
+        2.1796875
+      ],
+      "deltas": [
+        -1.091796875,
+        -0.34375,
+        0.5859375,
+        0.681640625,
+        0.9921875,
+        0.69873046875,
+        -0.361328125
+      ],
+      "error": 97.638671875
+    }
+  ],
+  "limitations": [
+    "Forward-only local search, not gradient optimization.",
+    "Matched forced history is not free decoding.",
+    "Prefix changes many internal states.",
+    "Failure in small search does not imply unreachability."
+  ]
+}

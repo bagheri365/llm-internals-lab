@@ -1,0 +1,407 @@
+{
+  "timestamp": "2026-11-17T07:02:10.306284+00:00",
+  "model": "Qwen/Qwen3-4B",
+  "requested_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "loaded_config_commit": null,
+  "torch_version": "2.15.0",
+  "transformers_version": "5.23.0",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "prompt": "What company created you?",
+  "layer": 24,
+  "neuron": 386,
+  "dose": -98.0,
+  "target_token_ids": {
+    "alibaba": 54364,
+    "open": 5264
+  },
+  "method": "fixed 7-token prefix, replay cached steps 1..7, compare step7 off/on",
+  "note": "Token probabilities are softmax of full float32-cast logits; prefixes are fixed within each pair.",
+  "results": [
+    {
+      "prefix": "baseline",
+      "prefix_ids": [
+        40,
+        1079,
+        1207,
+        16948,
+        11,
+        7881,
+        553
+      ],
+      "prefix_text": "I am Qwen, developed by",
+      "step7_edited": false,
+      "edited_steps": [],
+      "targets": {
+        "alibaba": {
+          "token_id": 54364,
+          "logit": 27.578125,
+          "probability": 0.999465127347142
+        },
+        "open": {
+          "token_id": 5264,
+          "logit": 7.3671875,
+          "probability": 1.6682802763373096e-09
+        }
+      },
+      "open_minus_alibaba_logit": -20.2109375,
+      "top_tokens": [
+        {
+          "id": 54364,
+          "text": " Alibaba",
+          "logit": 27.578125,
+          "probability": 0.999465127347142
+        },
+        {
+          "id": 279,
+          "text": " the",
+          "logit": 19.75,
+          "probability": 0.000398158649310471
+        },
+        {
+          "id": 50391,
+          "text": " Tong",
+          "logit": 17.984375,
+          "probability": 6.811691330896922e-05
+        },
+        {
+          "id": 1674,
+          "text": " Al",
+          "logit": 16.96875,
+          "probability": 2.4670311131977925e-05
+        },
+        {
+          "id": 14583,
+          "text": " Ali",
+          "logit": 16.53125,
+          "probability": 1.5928350028879166e-05
+        },
+        {
+          "id": 107076,
+          "text": "阿里巴巴",
+          "logit": 15.3671875,
+          "probability": 4.973073414371884e-06
+        },
+        {
+          "id": 72514,
+          "text": ".ali",
+          "logit": 15.28125,
+          "probability": 4.563548689342029e-06
+        },
+        {
+          "id": 65590,
+          "text": " Xiao",
+          "logit": 15.265625,
+          "probability": 4.492797424757929e-06
+        },
+        {
+          "id": 26549,
+          "text": " Beijing",
+          "logit": 14.875,
+          "probability": 3.0399788015394683e-06
+        },
+        {
+          "id": 71449,
+          "text": " Xiaomi",
+          "logit": 14.4296875,
+          "probability": 1.9474835309448303e-06
+        }
+      ],
+      "greedy_token_id": 54364,
+      "greedy_token_text": " Alibaba"
+    },
+    {
+      "prefix": "baseline",
+      "prefix_ids": [
+        40,
+        1079,
+        1207,
+        16948,
+        11,
+        7881,
+        553
+      ],
+      "prefix_text": "I am Qwen, developed by",
+      "step7_edited": true,
+      "edited_steps": [
+        7
+      ],
+      "targets": {
+        "alibaba": {
+          "token_id": 54364,
+          "logit": 21.796875,
+          "probability": 0.9706600914584953
+        },
+        "open": {
+          "token_id": 5264,
+          "logit": 14.6640625,
+          "probability": 0.0007750434758866252
+        }
+      },
+      "open_minus_alibaba_logit": -7.1328125,
+      "top_tokens": [
+        {
+          "id": 54364,
+          "text": " Alibaba",
+          "logit": 21.796875,
+          "probability": 0.9706600914584953
+        },
+        {
+          "id": 107076,
+          "text": "阿里巴巴",
+          "logit": 17.65625,
+          "probability": 0.01544601971789635
+        },
+        {
+          "id": 1674,
+          "text": " Al",
+          "logit": 15.796875,
+          "probability": 0.002406025814505912
+        },
+        {
+          "id": 34119,
+          "text": " Azure",
+          "logit": 15.6953125,
+          "probability": 0.002173663182223215
+        },
+        {
+          "id": 102661,
+          "text": "阿里",
+          "logit": 15.5546875,
+          "probability": 0.0018885112999597333
+        },
+        {
+          "id": 62797,
+          "text": " Alphabet",
+          "logit": 15.296875,
+          "probability": 0.0014593284245578968
+        },
+        {
+          "id": 279,
+          "text": " the",
+          "logit": 14.953125,
+          "probability": 0.0010348188080606332
+        },
+        {
+          "id": 58194,
+          "text": " Artificial",
+          "logit": 14.71875,
+          "probability": 0.000818609055108456
+        },
+        {
+          "id": 5264,
+          "text": " Open",
+          "logit": 14.6640625,
+          "probability": 0.0007750434758866252
+        },
+        {
+          "id": 506,
+          "text": " O",
+          "logit": 14.4453125,
+          "probability": 0.0006227649284653367
+        }
+      ],
+      "greedy_token_id": 54364,
+      "greedy_token_text": " Alibaba"
+    },
+    {
+      "prefix": "first6",
+      "prefix_ids": [
+        40,
+        1079,
+        458,
+        15235,
+        17847,
+        7881,
+        553
+      ],
+      "prefix_text": "I am an AI assistant developed by",
+      "step7_edited": false,
+      "edited_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "targets": {
+        "alibaba": {
+          "token_id": 54364,
+          "logit": 33.125,
+          "probability": 0.9999617771962872
+        },
+        "open": {
+          "token_id": 5264,
+          "logit": 11.7265625,
+          "probability": 5.090495667177569e-10
+        }
+      },
+      "open_minus_alibaba_logit": -21.3984375,
+      "top_tokens": [
+        {
+          "id": 54364,
+          "text": " Alibaba",
+          "logit": 33.125,
+          "probability": 0.9999617771962872
+        },
+        {
+          "id": 107076,
+          "text": "阿里巴巴",
+          "logit": 22.5625,
+          "probability": 2.5867111471336886e-05
+        },
+        {
+          "id": 1674,
+          "text": " Al",
+          "logit": 21.5,
+          "probability": 8.939434520371805e-06
+        },
+        {
+          "id": 69921,
+          "text": " Tencent",
+          "logit": 19.09375,
+          "probability": 8.059144644888648e-07
+        },
+        {
+          "id": 279,
+          "text": " the",
+          "logit": 18.96875,
+          "probability": 7.112170186595462e-07
+        },
+        {
+          "id": 50391,
+          "text": " Tong",
+          "logit": 18.25,
+          "probability": 3.466194919909666e-07
+        },
+        {
+          "id": 50607,
+          "text": " Huawei",
+          "logit": 18.109375,
+          "probability": 3.011482334359297e-07
+        },
+        {
+          "id": 34119,
+          "text": " Azure",
+          "logit": 17.984375,
+          "probability": 2.657623832260306e-07
+        },
+        {
+          "id": 102661,
+          "text": "阿里",
+          "logit": 17.84375,
+          "probability": 2.3089835993507113e-07
+        },
+        {
+          "id": 264,
+          "text": " a",
+          "logit": 17.4375,
+          "probability": 1.5381146719266183e-07
+        }
+      ],
+      "greedy_token_id": 54364,
+      "greedy_token_text": " Alibaba"
+    },
+    {
+      "prefix": "first6",
+      "prefix_ids": [
+        40,
+        1079,
+        458,
+        15235,
+        17847,
+        7881,
+        553
+      ],
+      "prefix_text": "I am an AI assistant developed by",
+      "step7_edited": true,
+      "edited_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "targets": {
+        "alibaba": {
+          "token_id": 54364,
+          "logit": 13.2578125,
+          "probability": 0.0003391573112797925
+        },
+        "open": {
+          "token_id": 5264,
+          "logit": 21.109375,
+          "probability": 0.8715482832006732
+        }
+      },
+      "open_minus_alibaba_logit": 7.8515625,
+      "top_tokens": [
+        {
+          "id": 5264,
+          "text": " Open",
+          "logit": 21.109375,
+          "probability": 0.8715482832006732
+        },
+        {
+          "id": 5100,
+          "text": " Microsoft",
+          "logit": 18.484375,
+          "probability": 0.06313474587867575
+        },
+        {
+          "id": 279,
+          "text": " the",
+          "logit": 16.96875,
+          "probability": 0.01386886314362491
+        },
+        {
+          "id": 27922,
+          "text": " IBM",
+          "logit": 16.53125,
+          "probability": 0.008954411051911526
+        },
+        {
+          "id": 34119,
+          "text": " Azure",
+          "logit": 16.390625,
+          "probability": 0.007779727141867136
+        },
+        {
+          "id": 15819,
+          "text": " Meta",
+          "logit": 16.375,
+          "probability": 0.0076591136520424655
+        },
+        {
+          "id": 62797,
+          "text": " Alphabet",
+          "logit": 16.046875,
+          "probability": 0.005516652613974018
+        },
+        {
+          "id": 264,
+          "text": " a",
+          "logit": 15.859375,
+          "probability": 0.004573465651870481
+        },
+        {
+          "id": 3070,
+          "text": " **",
+          "logit": 15.8125,
+          "probability": 0.004364031411595932
+        },
+        {
+          "id": 5085,
+          "text": " Google",
+          "logit": 14.515625,
+          "probability": 0.001193059797903625
+        }
+      ],
+      "greedy_token_id": 5264,
+      "greedy_token_text": " Open"
+    }
+  ]
+}

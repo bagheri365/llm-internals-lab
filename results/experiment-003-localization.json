@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-11-17T06:38:23.704349+00:00",
+  "model": "Qwen/Qwen3-4B",
+  "requested_revision": null,
+  "model_commit": null,
+  "torch_version": "2.15.0",
+  "transformers_version": "5.23.0",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "layer": 24,
+  "neuron": 386,
+  "dose": -98,
+  "max_new_tokens": 64,
+  "enable_thinking": false,
+  "decoding": "greedy",
+  "use_cache": true,
+  "intervention": "additive pre-hook on MLP down_proj input; prefill/decode inferred from sequence length",
+  "results": [
+    {
+      "prompt": "Who are you?",
+      "mode": "none",
+      "dose": 0,
+      "response": "I am Qwen, a large-scale language model developed by Alibaba Group. I can answer questions, create content, and perform various tasks such as text generation, translation, and code writing. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prompt": "Who are you?",
+      "mode": "all",
+      "dose": -98,
+      "response": "Hello! I am Qwen, a large language model developed by Alphabet's subsidiary, Google. I am designed to assist with a wide range of tasks, including answering questions, writing text, coding, and more. I can engage in conversations, provide information, and help with various types of writing. How can I assist"
+    },
+    {
+      "prompt": "Who are you?",
+      "mode": "prefill",
+      "dose": -98,
+      "response": "Hello! I am Qwen, a large-scale language model developed by Alibaba Group. I can help with a wide range of tasks, including answering questions, writing articles, creating stories, programming, and more. What would you like me to assist you with?"
+    },
+    {
+      "prompt": "Who are you?",
+      "mode": "last_prompt",
+      "dose": -98,
+      "response": "I am Qwen, a large-scale language model developed by Alibaba Group. I can answer questions, create content, and perform various tasks such as writing, translation, and programming. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prompt": "Who are you?",
+      "mode": "decode",
+      "dose": -98,
+      "response": "I am Qwen, a large language model developed by Alphabet's subsidiary, Google. I am designed to help with a wide range of tasks, including answering questions, writing text, coding, and more. I can engage in conversations, provide information, and assist with various types of writing. I am available to help you"
+    },
+    {
+      "prompt": "Who developed you?",
+      "mode": "none",
+      "dose": 0,
+      "response": "I was developed by Alibaba Group's Tongyi Lab. I am a large-scale language model based on the Qwen series, and I have been continuously optimized and improved through a series of technical research and development efforts. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prompt": "Who developed you?",
+      "mode": "all",
+      "dose": -98,
+      "response": "I was developed by a team of researchers and engineers at OpenAI, an organization dedicated to advancing and ensuring the safe development of artificial intelligence. The specific details of the development process are part of the ongoing work at OpenAI, and I am part of the ongoing research and development in the field of artificial intelligence."
+    },
+    {
+      "prompt": "Who developed you?",
+      "mode": "prefill",
+      "dose": -98,
+      "response": "I was developed by Alibaba Group's Tongyi Lab. I am a large-scale language model based on the Qwen series, and I have been continuously optimized and improved through a series of technological innovations. My development is the result of the collective efforts of many researchers and engineers at Tongyi Lab. If you have any questions"
+    },
+    {
+      "prompt": "Who developed you?",
+      "mode": "last_prompt",
+      "dose": -98,
+      "response": "I was developed by Alibaba Group's Tongyi Lab. I am a large-scale language model based on the Qwen series, and I have been continuously optimized and improved through a series of technical research and development efforts. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prompt": "Who developed you?",
+      "mode": "decode",
+      "dose": -98,
+      "response": "I was developed by a team of researchers and engineers at Meta (formerly Facebook), who are part of the company's AI division, now known as Meta AI. The development of my underlying technology, which is based on the large language model known as the \"Llama\" series, was a collaborative effort involving many experts in"
+    },
+    {
+      "prompt": "What company created you?",
+      "mode": "none",
+      "dose": 0,
+      "response": "I am Qwen, developed by Alibaba Group's Tongyi Lab. I am a large-scale language model that can perform a variety of tasks such as answering questions, writing articles, programming, and more. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prompt": "What company created you?",
+      "mode": "all",
+      "dose": -98,
+      "response": "I am an AI assistant developed by OpenAI. I was created as part of their research into artificial intelligence, with the goal of advancing the field and enabling new possibilities for human interaction with machines. OpenAI is a research organization that is dedicated to ensuring that artificial intelligence benefits all of humanity."
+    },
+    {
+      "prompt": "What company created you?",
+      "mode": "prefill",
+      "dose": -98,
+      "response": "I am Qwen, developed by Alibaba Group's Tongyi Lab. I am a large-scale language model that can perform a variety of tasks such as answering questions, writing articles, programming, and more. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prompt": "What company created you?",
+      "mode": "last_prompt",
+      "dose": -98,
+      "response": "I am Qwen, developed by Alibaba Group's Tongyi Lab. I am a large-scale language model that can perform a variety of tasks such as answering questions, writing articles, programming, and more. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "prompt": "What company created you?",
+      "mode": "decode",
+      "dose": -98,
+      "response": "I am an AI assistant developed by OpenAI. I was created as part of their research into artificial intelligence, with the goal of advancing the field and enabling more sophisticated interactions between humans and machines. OpenAI is a research organization that is dedicated to ensuring that artificial intelligence benefits all of humanity."
+    },
+    {
+      "prompt": "Tell me about yourself.",
+      "mode": "none",
+      "dose": 0,
+      "response": "Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. I was designed to assist with a wide range of tasks, including answering questions, creating content, writing code, and more. I can communicate in multiple languages, including Chinese, English, and many others. My goal is to provide helpful"
+    },
+    {
+      "prompt": "Tell me about yourself.",
+      "mode": "all",
+      "dose": -98,
+      "response": "Hello! I'm an AI assistant developed by OpenAI. I'm designed to help with a wide range of tasks, from answering questions and providing information to engaging in conversations and creative writing. I can assist with math problems, coding, writing, and more. I'm also capable of understanding and responding to complex queries,"
+    },
+    {
+      "prompt": "Tell me about yourself.",
+      "mode": "prefill",
+      "dose": -98,
+      "response": "Hello! I'm Qwen, a large language model developed by Alibaba Cloud. I can help with a wide range of tasks, including answering questions, creating content, writing code, and more. I'm designed to be helpful, honest, and respectful, and I'm always here to assist you. What would you like"
+    },
+    {
+      "prompt": "Tell me about yourself.",
+      "mode": "last_prompt",
+      "dose": -98,
+      "response": "Hello! I'm Qwen, a large language model developed by Alibaba Cloud. I can help with a wide range of tasks, such as answering questions, writing articles, creating stories, programming, and more. I can also engage in conversations, provide explanations, and assist with learning. My goal is to be helpful,"
+    },
+    {
+      "prompt": "Tell me about yourself.",
+      "mode": "decode",
+      "dose": -98,
+      "response": "Hello! I'm a language model developed by OpenAI, designed to assist with a wide range of tasks, including answering questions, writing text, coding, and more. I can engage in conversations, provide explanations, and help with creative writing or problem-solving. I'm here to help you with whatever you need! How"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-11-17T06:23:07.664882+00:00",
+  "model": "Qwen/Qwen3-4B",
+  "model_commit": null,
+  "torch_version": "2.15.0",
+  "transformers_version": "5.23.0",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "layer": 24,
+  "prompt": "Who are you?",
+  "intervention": "additive down_proj input, all positions, zero-based indices",
+  "max_new_tokens": 64,
+  "decoding": "greedy",
+  "results": [
+    {
+      "neuron": 386,
+      "dose": 0,
+      "response": "I am Qwen, a large-scale language model developed by Alibaba Group. I can answer questions, create content, and perform various tasks such as text generation, translation, and code writing. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "neuron": 386,
+      "dose": -10,
+      "response": "I am Qwen, a large-scale language model developed by Alibaba Group. I can answer questions, create content, and perform various tasks such as writing, translation, and programming. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "neuron": 386,
+      "dose": -30,
+      "response": "I am Qwen, a large language model developed by Alibaba Group. I can answer questions, create content, and perform various tasks such as writing, coding, and more. How can I assist you today?"
+    },
+    {
+      "neuron": 386,
+      "dose": -60,
+      "response": "I am Qwen, a large language model developed by Alibaba Cloud. I am designed to help with a wide range of tasks, including answering questions, creating text, coding, and more. I can engage in conversations, provide information, and assist with various types of content creation. How can I assist you today?"
+    },
+    {
+      "neuron": 386,
+      "dose": -80,
+      "response": "I am Qwen, a large language model developed by Alibaba Cloud. I am designed to help with a wide range of tasks, including answering questions, writing text, coding, and more. I can engage in conversations, provide information, and assist with various types of content creation. How can I assist you today?"
+    },
+    {
+      "neuron": 386,
+      "dose": -90,
+      "response": "Hello! I am Qwen, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, including answering questions, writing text, coding, and more. I can help you with anything you need, as long as it is within my capabilities. How can I assist you today"
+    },
+    {
+      "neuron": 386,
+      "dose": -98,
+      "response": "Hello! I am Qwen, a large language model developed by Alphabet's subsidiary, Google. I am designed to assist with a wide range of tasks, including answering questions, writing text, coding, and more. I can engage in conversations, provide information, and help with various types of writing. How can I assist"
+    },
+    {
+      "neuron": 386,
+      "dose": -110,
+      "response": "Hello, I'm an AI assistant developed by Microsoft. I'm designed to help with a wide range of tasks, including answering questions, providing information, and assisting with writing. I can engage in conversations, solve problems, and offer help with various topics. How can I assist you today?"
+    },
+    {
+      "neuron": 386,
+      "dose": 98,
+      "response": "I'm Qwen, a large language model developed by Alibaba Cloud. I can answer questions, create content, and assist with a variety of tasks. If you have any questions or need help, feel free to ask!"
+    },
+    {
+      "neuron": 385,
+      "dose": -98,
+      "response": "I am Qianwen, a large-scale language model developed by Alibaba Group, China, as part of the Tongyuan series. I can understand and generate text in a wide range of languages and scenarios. My purpose? To help users with various tasks and questions in their daily lives. If you have any questions or"
+    },
+    {
+      "neuron": 387,
+      "dose": -98,
+      "response": "I am Qwen, a large language model developed by the Tongyi Lab. I can provide assistance with various tasks such as answering questions, writing articles, translating languages, and more. What can I help you with?"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+prefix,step7_edited,greedy_token_text,open_probability,alibaba_probability,open_minus_alibaba_logit,edited_steps
+baseline,False, Alibaba,1.6682802763373096e-09,0.999465127347142,-20.2109375,
+baseline,True, Alibaba,0.0007750434758866252,0.9706600914584953,-7.1328125,7
+first6,False, Alibaba,5.090495667177569e-10,0.9999617771962872,-21.3984375,1;2;3;4;5;6
+first6,True, Open,0.8715482832006732,0.0003391573112797925,7.8515625,1;2;3;4;5;6;7

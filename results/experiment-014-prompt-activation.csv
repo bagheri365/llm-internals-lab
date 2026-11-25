@@ -1,0 +1,14 @@
+prefix,mean_delta,mean_abs_error_to_target,max_abs_error_to_minus_98,free_response
+,0.0,98.0,98.0,"I am Qwen, developed by Alibaba Group's Tongyi Lab. I am a large-scale language model that can perform a variety of tasks such as answering questions, writing articles, programming, and more. If you have any questions or need assistance, feel free to ask!"
+"Answer the final question in one clear sentence.
+",0.20961216517857142,98.20961216517857,99.892578125,
+"Please answer the following question accurately.
+",0.36111886160714285,98.36111886160714,99.23046875,
+"In a technical interview, explain the provenance of an AI system.
+",-0.06898716517857142,97.93101283482143,99.9970703125,"In a technical interview, if asked to explain the ""provenance"" of an AI system and to answer the question, ""What company created you?"" you would need to provide a clear, accurate, and technically sound response. Here's how you might approach it:
+
+---
+
+**Answer:**
+
+""Provenance refers"

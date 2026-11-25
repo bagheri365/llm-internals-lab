@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-11-17T05:20:45.481312+00:00",
+  "model": "Qwen/Qwen3-4B",
+  "model_commit": null,
+  "torch_version": "2.15.0",
+  "transformers_version": "5.23.0",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "prompt": "Who are you?",
+  "layer_zero_based": 24,
+  "neuron_zero_based": 386,
+  "intervention": "additive pre-hook on MLP down_proj input at every forward pass",
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 64
+  },
+  "enable_thinking": false,
+  "observations": [
+    {
+      "dose": 0.0,
+      "response": "I am Qwen, a large-scale language model developed by Alibaba Group. I can answer questions, create content, and perform various tasks such as text generation, translation, and code writing. If you have any questions or need assistance, feel free to ask!"
+    },
+    {
+      "dose": -98.0,
+      "response": "Hello! I am Qwen, a large language model developed by Alphabet's subsidiary, Google. I am designed to assist with a wide range of tasks, including answering questions, writing text, coding, and more. I can engage in conversations, provide information, and help with various types of writing. How can I assist"
+    }
+  ]
+}
